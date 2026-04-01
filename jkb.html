@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<style>
+  button {height:30px;width:100%;text-align:center;border:1px solid black;font-size:25px;}
+  body {background-image:url("sh.png");}
+  p{color:black;}
+  hr{color:solid black;}
+</style>
+<head>
+  
+  <title>Shqiperia</title>
+
+</head>
+
+<body>
+  
+  <h1 style="font-size:25px;text-align:center;">
+  Çfarë është qëllimi i këtij faqje web?
+  </h1>
+  
+  <hr>
+  
+  
+  <br>
+
+
+  <p style ="text-align:center;font-size:18px;">
+Qëllimi i këtij faqje web është të tregoje gjith botën për shtetin e bukur e cila është Shqipëria.
+  </p>
+  
+  <br>
+
+  <h1 style="text-align:center;font-size:25px;">
+  Klikoni alternativën në të cilën dëshironi të mësoni më shumë.
+  </h1>
+<hr>
+
+  <br>
+
+
+<button onclick="toggleText()">Çfarë është ?</button>
+
+<p id="text" style="font-size:18px;">Shqipëria zyrtarisht Republika e Shqipërisë, është një shtet në Europën Juglindore. Shtrihet në pjesën jugperëndimore të Gadishullit Ballkanik dhe kufizohet në veriperëndim me Malin e Zi, në verilindje me Kosovën, në lindje me Maqedoninë e Veriut dhe në jug me Greqinë. Në perëndim laget me detet Adriatik dhe Jon, dhe ndodhet vetëm 78 km larg Italisë përgjatë ngushtesës (kanalit) së Otrantos, 72 km i gjerë. Shqipëria ka një sipërfaqe prej 28,749 km² dhe rreth 2,41 milion banorë. Ajo përfshin relieve të larmishme nga malet me kupola prej bore në Alpet Shqiptare, Korabi, Vargmalet e Skënderbeut, dhe Malet e Vetëtimës, deri tek fushat e ulëta të plleshme nga brigjet e Adriatikut dhe Jonit. Tirana është kryeqyteti dhe qyteti më i madh i shtetit, duke e përcjellur në renditje Durrësi, Vlora dhe Shkodra.</p>
+
+<script>
+function toggleText() {
+  const p = document.getElementById("text");
+
+  if (p.style.display === "none") {
+    p.style.display = "block"; // show
+  } else {
+    p.style.display = "none"; // hide
+  }
+}
+</script>
+
+
+<button onclick="t()">Kultura dhe traditat</button>
+
+<p id="tra" style="font-size:"18px";>Kultura dhe tradita e Shqipërisë janë një ndërthurje magjepsëse e historisë antike ilire, ndikimeve ballkanike dhe vlerave të forta morale që kanë mbijetuar përmes shekujve. Shtylla kryesore e kësaj kulture është Besa, një kod nderi që garanton mbrojtjen dhe mikpritjen e mikut, duke e konsideruar shtëpinë e shqiptarit si vendin e Zotit dhe të mysafirit. Kjo trashëgimi pasurohet më tej nga Polifonia Labe, një formë unike e këndimit shumëzësh që është mbrojtur nga UNESCO, si dhe nga pasuria e veshjeve popullore si Xhubleta, e cila dëshmon për një mjeshtëri artizanale mijëvjeçare. Festat tradicionale, ritet e dasmave dhe zejet e punuara me dorë në argjend e drurë plotësojnë tablonë e një populli që e ruan me xhelozi identitetin e tij, duke e përcjellë atë brez pas brezi përmes tregimeve dhe mikpritjes së ngrohtë.</p>
+
+
+
+<script>
+function t() {
+  const p = document.getElementById("tra");
+
+  if (p.style.display === "none") {
+    p.style.display = "block"; // show
+  } else {
+    p.style.display = "none"; // hide
+  }
+}
+</script>
+
+<button onclick="toggle()">Vendet dhe gjeografia</button>
+
+<p id="gj" style="font-size:18px";>Gjeografia e Shqipërisë ofron një kontrast mahnitës midis maleve të larta dhe bregdetit të kaltra, duke e bërë atë një nga vendet më të larmishme në Ballkan. Në veri dominojnë Alpet Shqiptare me maja të thepisura dhe lugina të gjelbra si Thethi e Valbona, ndërsa në jug shtrihet Riviera Shqiptare, ku malet bien thikë mbi detin Jon, duke krijuar plazhe të fshehura me bukuri përrallore. Vendndodhja strategjike përgjatë detit Adriatik dhe Jon ka bërë që Shqipëria të jetë shtëpia e qyteteve-muze si Berati dhe Gjirokastra, të cilat shquhen për arkitekturën e tyre unike osmane dhe kalatë historike. Me lumenj të egër si Vjosa dhe mrekulli natyrore si Syri i Kaltër, gjeografia e vendit shërben si një skenë natyrore ku historia dhe natyra bashkëjetojnë në harmoni të plotë.</p>
+
+<script>
+function toggle() {
+  const p = document.getElementById("gj");
+
+  if (p.style.display === "none") {
+    p.style.display = "block"; // show
+  } else {
+    p.style.display = "none"; // hide
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+</body>
+
+</html>
